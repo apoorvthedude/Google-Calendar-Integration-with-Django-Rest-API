@@ -8,9 +8,9 @@ Install requirements from requirements.txt
   
 <b> Step 2 </b>
 
-Clone the repository
+Clone the repository:
 
-
+https://github.com/apoorvthedude/Google-Calendar-Integration-with-Django-Rest-API.git
 
 <b> Step 3 </b>
 
@@ -23,8 +23,10 @@ If you don't have any credentials , you can test with my credentials or login to
 <b> Step 4 </b>
 
 After replacing the credentials file in project folder , Now we need to run the following commands in command prompt.
-
-python manage.py makemigrations
+    
+    cd GcalendarAPI
+    
+    python manage.py makemigrations
     
     python manage.py migrate
     
